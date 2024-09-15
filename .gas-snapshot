@@ -1,2 +1,3 @@
-CounterTest:testFuzz_SetNumber(uint256) (runs: 256, μ: 30977, ~: 31288)
-CounterTest:test_Increment() (gas: 31303)
+CounterInvariants:invariant_ShouldAlwaysBeZero() (runs: 1, calls: 1, reverts: 1)
+CounterTest:testFuzz_SetNumber(uint256) (runs: 256, μ: 34253, ~: 34564)
+CounterTest:test_Increment() (gas: 34578)

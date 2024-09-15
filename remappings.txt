@@ -1,0 +1,4 @@
+@chainlink/=lib/chainlink/
+forge-std/=lib/forge-std/src/
+halmos-cheatcodes/=lib/halmos-cheatcodes/src/
+solady/=lib/solady/

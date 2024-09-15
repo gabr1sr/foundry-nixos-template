@@ -15,7 +15,6 @@
   };
 
   pre-commit.hooks = {
-    # https://github.com/0xYYY/foundry-pre-commit/blob/main/.pre-commit-hooks.yaml
     forge-fmt = {
       enable = true;
       name = "forge fmt";
@@ -23,16 +22,8 @@
       entry = "forge fmt";
       pass_filenames = false;
     };
-
-    forge-snapshot = {
-      enable = true;
-      name = "forge snapshot";
-      language = "system";
-      entry = "forge snapshot";
-      pass_filenames = false;
-    };
   };
-
+  
   enterShell = ''
     if [ ! -e ./foundry.toml ]; then
       forge init --force

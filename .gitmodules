@@ -13,3 +13,6 @@
 [submodule "lib/vulcan"]
 	path = lib/vulcan
 	url = https://github.com/nomoixyz/vulcan
+[submodule "lib/openzeppelin-contracts"]
+	path = lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts

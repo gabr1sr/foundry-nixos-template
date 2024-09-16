@@ -1,13 +1,7 @@
 {
   "remappings": [
-    "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
-    "@chainlink/=lib/chainlink/",
-    "ds-test/=lib/openzeppelin-contracts/lib/forge-std/lib/ds-test/src/",
-    "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
     "forge-std/=lib/forge-std/src/",
-    "halmos-cheatcodes/=lib/halmos-cheatcodes/src/",
-    "solady/=lib/solady/",
-    "vulcan/=lib/vulcan/src/"
+    "halmos-cheatcodes/=lib/halmos-cheatcodes/src/"
   ],
   "optimizer": {
     "enabled": true,
